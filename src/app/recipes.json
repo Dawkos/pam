@@ -1,0 +1,154 @@
+[
+
+    {
+        "name": "Domowa pizza",
+        "description": {
+            "ingredients": ["woda", "mąka","drożdże"],
+            "preparation_description": "przygotowanie opis"
+        } ,
+        "dimensions": {
+            "height": "30",
+            "width": "40"
+        },
+        "weights": "800",
+        "time": "20",
+        "type": "dania na ciepło",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg"
+    },
+
+    {
+        "name": "2",
+        "description": {
+            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
+            "preparation_description": "przygotowanie opis"
+        } ,
+        "dimensions": {
+            "height": "30",
+            "width": "40"
+        },
+        "weights": "2",
+        "time": "20",
+        "type": "",
+        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+    },
+    {
+        "name": "3",
+        "description": {
+            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
+            "preparation_description": "przygotowanie opis"
+        } ,
+        "dimensions": {
+            "height": "30",
+            "width": "40"
+        },
+        "weights": "2",
+        "time": "20",
+        "type": "",
+        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+    },
+    {
+        "name": "4",
+        "description": {
+            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
+            "preparation_description": "przygotowanie opis"
+        } ,
+        "dimensions": {
+            "height": "30",
+            "width": "40"
+        },
+        "weights": "2",
+        "time": "20",
+        "type": "",
+        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+    },
+    {
+        "name": "5",
+        "description": {
+            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
+            "preparation_description": "przygotowanie opis"
+        } ,
+        "dimensions": {
+            "height": "30",
+            "width": "40"
+        },
+        "weights": "2",
+        "time": "20",
+        "type": "",
+        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+    },
+    {
+        "name": "6",
+        "description": {
+            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
+            "preparation_description": "przygotowanie opis"
+        } ,
+        "dimensions": {
+            "height": "30",
+            "width": "40"
+        },
+        "weights": "2",
+        "time": "20",
+        "type": "",
+        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+    },
+    {
+        "name": "7",
+        "description": {
+            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
+            "preparation_description": "przygotowanie opis"
+        } ,
+        "dimensions": {
+            "height": "30",
+            "width": "40"
+        },
+        "weights": "2",
+        "time": "20",
+        "type": "",
+        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+    },
+    {
+        "name": "8",
+        "description": {
+            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
+            "preparation_description": "przygotowanie opis"
+        } ,
+        "dimensions": {
+            "height": "30",
+            "width": "40"
+        },
+        "weights": "2",
+        "time": "20",
+        "type": "",
+        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+    },
+    {
+        "name": "9",
+        "description": {
+            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
+            "preparation_description": "przygotowanie opis"
+        } ,
+        "dimensions": {
+            "height": "30",
+            "width": "40"
+        },
+        "weights": "2",
+        "time": "20",
+        "type": "",
+        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+    },
+    {
+        "name": "10",
+        "description": {
+            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
+            "preparation_description": "przygotowanie opis"
+        } ,
+        "dimensions": {
+            "height": "30",
+            "width": "40"
+        },
+        "weights": "2",
+        "time": "20",
+        "type": "",
+        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+    }
+]    
