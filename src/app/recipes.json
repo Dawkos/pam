@@ -3,152 +3,152 @@
     {
         "name": "Domowa pizza",
         "description": {
-            "ingredients": ["woda", "mąka","drożdże"],
-            "preparation_description": "przygotowanie opis"
+            "ingredients": ["woda", "mąka","drożdże", "ser", "pieczarki"],
+            "preparation_description": "Podstawowym składnikiem pizzy jest przede wszystkim sos pomidorowy, bazylia, oregano i ser mozzarella. Takie dodatki do pizzy tworzą popularną margeritę. W wersji amerykańskiej znaleźć można jako dodatki do pizzy ser żółty oraz pieczarki."
         } ,
         "dimensions": {
-            "height": "30",
-            "width": "40"
+            "height": "32 cm",
+            "width": "32 cm"
         },
-        "weights": "800",
-        "time": "20",
-        "type": "dania na ciepło",
+        "weights": "1000 gram",
+        "time": "45 min",
+        "type": "Dania na ciepło",
         "imageURL": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg"
     },
 
     {
-        "name": "2",
+        "name": "Ryba po grecku",
         "description": {
-            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
-            "preparation_description": "przygotowanie opis"
+            "ingredients": ["800 g filetów białej ryby", "1/2 kg marchewki","150 g pietruszki", "100 g selera", "1 duża cebula."],
+            "preparation_description": "Usmażone kawałki ryby w duszonych warzywach. Starte na tarce warzywa: marchewki, pietruszki i seler, wraz z cebulą i porem podsmażone są na oleju, a następnie duszone z wodą, koncentratem pomidorowym i przyprawami. Jest to potrawa wigilijna, ale i nie tylko. Można ją przygotować w dowolny dzień na obiad, zwłaszcza piątkowy. Rybę w warzywach można podawać zarówno na ciepło, jak i zimno."
         } ,
         "dimensions": {
-            "height": "30",
-            "width": "40"
+            "height": "20 cm",
+            "width": "30 cm"
         },
-        "weights": "2",
-        "time": "20",
-        "type": "",
-        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+        "weights": "1,6 kg",
+        "time": "50 min",
+        "type": "Dania na zimno",
+        "imageURL": "https://kuchnia-domowa.pl/images/content/552/ryba_po_grecku.jpg"
     },
     {
-        "name": "3",
+        "name": "Carpaccio z łososia",
         "description": {
-            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
-            "preparation_description": "przygotowanie opis"
+            "ingredients": ["150 g wędzonego łososia w plastrach", "1 łyżka startego na tarce parmezanu","świeżo zmielony czarny pieprz", "gęsty sos balsamiczny"],
+            "preparation_description": "Carpaccio z łososia to kolejny włoski wkład w kulturę jedzenia na całym świecie. Tradycyjnie do przygotowania tej potrawy używa się wołowiny, ale równie często spotkać można wersję rybną. Jak przyrządzić tę wykwintną przystawkę"
         } ,
         "dimensions": {
-            "height": "30",
-            "width": "40"
+            "height": "10 cm",
+            "width": "15 cm"
         },
-        "weights": "2",
-        "time": "20",
-        "type": "",
-        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+        "weights": "300 gram",
+        "time": "20 min",
+        "type": "Przekąski",
+        "imageURL": "https://bi.im-g.pl/im/92/7e/17/z24636562IH,Carpaccio-z-lososia-to-kolejny-wloski-wklad-w-kult.jpg"
     },
     {
-        "name": "4",
+        "name": "Koktajl owocowy",
         "description": {
-            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
-            "preparation_description": "przygotowanie opis"
+            "ingredients": ["mleko kokosowe", "banan","truskawki"],
+            "preparation_description": "Możesz zblendować truskawki, banany i mleko kokosowe w blenderze, aż do uzyskania gładkiej konsystencji. Możesz dodać trochę lodu, jeśli lubisz koktajle chłodniejsze. Na koniec możesz posypać koktajl startymi orzechami lub płatkami kokosowymi i podawać od razu. Smacznego!"
         } ,
         "dimensions": {
-            "height": "30",
-            "width": "40"
+            "height": "10 cm",
+            "width": "10 cm"
         },
-        "weights": "2",
-        "time": "20",
-        "type": "",
-        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+        "weights": "500 gram",
+        "time": "5 mni",
+        "type": "Koktajle",
+        "imageURL": "https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/koktajl_truskawkowy_01.jpg"
     },
     {
-        "name": "5",
+        "name": "Tiramisu",
         "description": {
-            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
-            "preparation_description": "przygotowanie opis"
+            "ingredients": ["350 ml zaparzonej mocniejszej kawy", "25 ml likieru amaretto","2 jajka + 2 żółtka", "70 g cukru pudru"],
+            "preparation_description": "Prawdziwy, oryginalny i najlepszy przepis! Tiramisu to włoski deser, który składa się z warstw podłużnych biszkoptów nasączonych bardzo mocną kawą oraz migdałowym likierem amaretto, przełożonych kremem z serka mascarpone, jajek i cukru. Całość posypana jest kakao i podawana po schłodzeniu. Warstwy biszkoptów można posypać dodatkowo startą gorzką czekoladą."
         } ,
         "dimensions": {
-            "height": "30",
-            "width": "40"
+            "height": "15 cm",
+            "width": "25 cm"
         },
-        "weights": "2",
-        "time": "20",
-        "type": "",
-        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+        "weights": "600 gram",
+        "time": "15 min",
+        "type": "Desery",
+        "imageURL": "https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/deser_tiramisu_0.jpg"
     },
     {
-        "name": "6",
+        "name": "Szarlotka",
         "description": {
-            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
-            "preparation_description": "przygotowanie opis"
+            "ingredients": ["1,5 kg jabłek", "5 łyżek cukru","1/2 łyżeczki cynamonu", "320 g mąki"],
+            "preparation_description": "Pyszna i prosta do zrobienia szarlotka na kruchym cieście. Każdemu się udaje i wszystkim smakuje! Dla ekstra kruchości część masła można zastąpić smalcem (sekretny składnik babcinych przepisów na szarlotkę"
         } ,
         "dimensions": {
-            "height": "30",
-            "width": "40"
+            "height": "30 cm",
+            "width": "40 cm"
         },
-        "weights": "2",
-        "time": "20",
-        "type": "",
-        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+        "weights": "2 kg",
+        "time": "1,2 godz",
+        "type": "Wypieki",
+        "imageURL": "https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/szarlotka-01_1.jpg"
     },
     {
-        "name": "7",
+        "name": "Bigos",
         "description": {
-            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
-            "preparation_description": "przygotowanie opis"
+            "ingredients": ["1/2 kg świeżej, białej kapusty", "300 g mięsa wieprzowego","40 g suszonych grzybów", "1 cebula"],
+            "preparation_description": "Przepis na najlepszy bigos staropolski. Przygotowuje się go z kiszonej i białej kapusty. Zawiera mięso, kiełbasę, boczek, grzyby, śliwki i czerwone wino. Powinien być długo gotowany, a następnie odgrzewany. Wtedy jest najsmaczniejszy i aromatyczny. Palce lizać."
         } ,
         "dimensions": {
-            "height": "30",
-            "width": "40"
+            "height": "50 cm",
+            "width": "40 cm"
         },
-        "weights": "2",
-        "time": "20",
-        "type": "",
-        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+        "weights": "4 kg",
+        "time": "2 godz",
+        "type": "Dania na ciepło",
+        "imageURL": "https://kuchnia-domowa.pl/images/content/368/bigos.jpg"
     },
     {
-        "name": "8",
+        "name": "Quesadilla z kurczakiem",
         "description": {
-            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
-            "preparation_description": "przygotowanie opis"
+            "ingredients": ["300 g filetu z kurczaka", "2 łyżki oliwy", "1 cebula", "1 papryka"],
+            "preparation_description": "Popularne meksykańskie danie składające się z podgrzanych placków tortilli z roztopionym serem (queso - ser) i opcjonalnymi dodatkami. Kurczaka pokroić na wąskie paski dł. ok. 2 cm. Doprawić solą, pieprzem oraz wszystkimi przyprawami. Polać łyżką oleju roślinnego i dokładnie wymieszać, odstawić."
         } ,
         "dimensions": {
-            "height": "30",
-            "width": "40"
+            "height": "10 cm",
+            "width": "15 cm"
         },
-        "weights": "2",
-        "time": "20",
-        "type": "",
-        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+        "weights": "911 gram",
+        "time": "55 min",
+        "type": "Dania na zimno",
+        "imageURL": "https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/quesadilla_01.jpg"
     },
     {
-        "name": "9",
+        "name": "Lody rzemieślnicze",
         "description": {
-            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
-            "preparation_description": "przygotowanie opis"
+            "ingredients": ["mleko", "smietana","cukier"],
+            "preparation_description": "Przepis na lody kraftowe jest dość prosty: mleko, śmietanka i cukier to ich podstawowe składniki. Wystarczy połączyć je w odpowiednich proporcjach i sięgnąć po dobrej jakości maszyny do lodów, a w szczególności po pasteryzator i frezer, aby powstały pyszne, puszyste i kremowe lody śmietankowe."
         } ,
         "dimensions": {
-            "height": "30",
-            "width": "40"
+            "height": "5 cm",
+            "width": "20 cm"
         },
-        "weights": "2",
+        "weights": "25 min",
         "time": "20",
-        "type": "",
-        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+        "type": "Desery",
+        "imageURL": "https://prawdziwelody.eu/wp-content/uploads/2021/02/receptura.jpg"
     },
     {
-        "name": "10",
+        "name": "Sernik z brzoskwiniami",
         "description": {
-            "ingredients": ["skladnik1", "skladnik2","dgskladnik3"],
-            "preparation_description": "przygotowanie opis"
+            "ingredients": ["350 g mąki pszennej", "1/2 szklanki cukru", "250 g masła", "1 kg twarogu sernikowego"],
+            "preparation_description": "Do mąki dodać cukier, proszek do pieczenia oraz pokrojone w kosteczkę zimne masło. Miksować mieszadłem miksera lub rozcierać palcami lub siekać na stolnicy, aż powstaną drobne okruszki ciasta. Dodać żółtka (białka zachować do bezy) i zagnieść ciasto łącząc składniki w jednolitą kulę (w razie potrzeby można dodać jeszcze jedno żółtko lub odrobinę zimnej wody do połączenia składników)."
         } ,
         "dimensions": {
-            "height": "30",
-            "width": "40"
+            "height": "20 cm",
+            "width": "40 cm"
         },
-        "weights": "2",
-        "time": "20",
-        "type": "",
-        "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg"
+        "weights": "2 kg",
+        "time": "1 godz",
+        "type": "Wypieki",
+        "imageURL": "https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/sernik-z-brzoskwiniami-01_0.jpg"
     }
 ]    

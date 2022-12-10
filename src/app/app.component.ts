@@ -1,30 +1,63 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, Component, OnInit, ViewChild } from '@angular/core';
 import { Platform } from '@angular/cdk/platform';
 import { SwUpdate, VersionReadyEvent } from '@angular/service-worker';
-import { filter, map } from 'rxjs/operators';
+import { distinctUntilChanged, filter, map, tap } from 'rxjs/operators';
+import { MatSidenav } from '@angular/material/sidenav';
+import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
+import { RecipesService } from './service/recipes.service';
+
+
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  styleUrls: ['./app.component.scss'],
 })
-export class AppComponent implements OnInit {
+
+export class AppComponent implements AfterViewInit, OnInit {
 
   isOnline: boolean;
   modalVersion: boolean;
   modalPwaEvent: any;
-  modalPwaPlatform: string|undefined;
+  modalPwaPlatform: string | undefined;
+  title = 'RecipesApp';
+  @ViewChild(MatSidenav) sideNav!: MatSidenav;
+  data: any = [];
 
   constructor(private platform: Platform,
-              private swUpdate: SwUpdate) {
+    private swUpdate: SwUpdate,
+    private breakpointObserver: BreakpointObserver,
+    private changeDetector: ChangeDetectorRef,
+    private appService: RecipesService) {
     this.isOnline = false;
     this.modalVersion = false;
   }
+  ngAfterViewInit(): void {
+    // Kod, który ma zostać wykonany po inicjalizacji wszystkich podrzędnych widoków w komponencie
+    this.sideNav.opened = true;
+    this.breakpointObserver.observe(['(max-width: 787px)'])
+      .subscribe((result) => {
+        if (result.matches) {
+          this.sideNav.mode = "over";
+          this.sideNav.close();
+        } else {
+          this.sideNav.mode = 'side';
+          this.sideNav.open();
+        }
+      });
+    this.changeDetector.detectChanges();
+  }
 
   public ngOnInit(): void {
+    // Kod, który ma zostać wykonany po inicjalizacji danych w komponencie
+    //this.recipesType =this.appService.getData();
+    this.appService.getData().subscribe((data)=>{
+      this.data = data;
+    })
+
     this.updateOnlineStatus();
 
-    window.addEventListener('online',  this.updateOnlineStatus.bind(this));
+    window.addEventListener('online', this.updateOnlineStatus.bind(this));
     window.addEventListener('offline', this.updateOnlineStatus.bind(this));
 
     if (this.swUpdate.isEnabled) {
@@ -39,6 +72,7 @@ export class AppComponent implements OnInit {
 
     this.loadModalPwa();
   }
+  
 
   private updateOnlineStatus(): void {
     this.isOnline = window.navigator.onLine;
